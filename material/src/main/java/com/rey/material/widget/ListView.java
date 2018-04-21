@@ -1,14 +1,13 @@
 package com.rey.material.widget;
 
 import android.content.Context;
-import android.support.v7.widget.ListViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
 
 import com.rey.material.app.ThemeManager;
 import com.rey.material.util.ViewUtil;
 
-public class ListView extends ListViewCompat implements ThemeManager.OnThemeChangedListener{
+public class ListView extends android.widget.ListView implements ThemeManager.OnThemeChangedListener{
 
 	private RecyclerListener mRecyclerListener;
 
